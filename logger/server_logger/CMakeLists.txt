@@ -13,7 +13,7 @@ add_library(
 target_include_directories(
         mp_os_lggr_srvr_lggr
         PUBLIC
-        ./include)
+        include)
 target_link_libraries(
         mp_os_lggr_srvr_lggr
         PUBLIC
@@ -29,7 +29,7 @@ target_link_libraries(
 set_target_properties(
         mp_os_lggr_srvr_lggr PROPERTIES
         LANGUAGES CXX
-        CXX_STANDARD 14
+        CXX_STANDARD 17
         CXX_STANDARD_REQUIRED ON
         CXX_EXTENSIONS OFF
         VERSION 1.0

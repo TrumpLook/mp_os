@@ -8,7 +8,7 @@ add_library(
 target_include_directories(
         mp_os_allctr_allctr_rb_tr
         PUBLIC
-        ./include)
+        include)
 target_link_libraries(
         mp_os_allctr_allctr_rb_tr
         PUBLIC

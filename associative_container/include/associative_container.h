@@ -3,7 +3,6 @@
 
 #include <iostream>
 #include <vector>
-#include <operation_not_supported.h>
 
 template<
     typename tkey,
@@ -20,6 +19,23 @@ public:
         
         tkey key;
         tvalue value;
+
+    public:
+	key_value_pair() = default;
+
+	key_value_pair(const tkey &key_, const tvalue &value_) : key(key_), value(value_)
+	{
+
+	}
+	key_value_pair(const key_value_pair& other) = default;
+
+	key_value_pair(key_value_pair&& other) noexcept = default;
+
+	key_value_pair& operator=(const key_value_pair& other) = default;
+
+	key_value_pair& operator=(key_value_pair&& other) noexcept = default;
+
+	~key_value_pair() = default;
         
     };
     

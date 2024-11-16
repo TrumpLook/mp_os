@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 3.21)
 project(mp_os_lggr_lggr)
 
+add_executable(cw_os
+    main.cpp
+
+)
+
 add_library(
         mp_os_lggr_lggr
         src/logger.cpp
@@ -9,7 +14,7 @@ add_library(
 target_include_directories(
         mp_os_lggr_lggr
         PUBLIC
-        ./include)
+        include)
 set_target_properties(
         mp_os_lggr_lggr PROPERTIES
         LANGUAGES CXX

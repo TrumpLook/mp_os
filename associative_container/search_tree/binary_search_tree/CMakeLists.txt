@@ -8,11 +8,12 @@ add_subdirectory(splay_tree)
 add_subdirectory(tests)
 add_library(
         mp_os_assctv_cntnr_srch_tr_bnr_srch_tr
-        include/binary_search_tree.h)
+        include/binary_search_tree.h
+)
 target_include_directories(
         mp_os_assctv_cntnr_srch_tr_bnr_srch_tr
         PUBLIC
-        ./include)
+        include)
 target_link_libraries(
         mp_os_assctv_cntnr_srch_tr_bnr_srch_tr
         PUBLIC

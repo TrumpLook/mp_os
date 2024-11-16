@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MyProject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/OpSys_cw/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/OpSys_cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/OpSys_cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/OpSys_cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/OpSys_cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/OpSys_cw/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/OpSys_cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/OpSys_cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/OpSys_cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/OpSys_cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyProject">
+				<Option output="C:/OpSys_cw/cmake-build-debug/MyProject.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/OpSys_cw/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/OpSys_cw/cw/common/include/storage_interface.h"/>
+					<Add directory="C:/OpSys_cw/cw/database/include/data_base.h"/>
+					<Add directory="C:/OpSys_cw/cw/schema/include/schema.h"/>
+					<Add directory="C:/OpSys_cw/cw/schemas_pool/include/schemas_pool.h"/>
+					<Add directory="C:/OpSys_cw/cw/table/include/table.h"/>
+					<Add directory="C:/OpSys_cw/b-tree/b_tree.h"/>
+					<Add directory="C:/OpSys_cw/cw/user_data/include/user_data.h"/>
+					<Add directory="C:/OpSys_cw/associative_container/include/associative_container.h"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/OpSys_cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyProject"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/OpSys_cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/OpSys_cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/OpSys_cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyProject/fast">
+				<Option output="C:/OpSys_cw/cmake-build-debug/MyProject.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/OpSys_cw/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/OpSys_cw/cw/common/include/storage_interface.h"/>
+					<Add directory="C:/OpSys_cw/cw/database/include/data_base.h"/>
+					<Add directory="C:/OpSys_cw/cw/schema/include/schema.h"/>
+					<Add directory="C:/OpSys_cw/cw/schemas_pool/include/schemas_pool.h"/>
+					<Add directory="C:/OpSys_cw/cw/table/include/table.h"/>
+					<Add directory="C:/OpSys_cw/b-tree/b_tree.h"/>
+					<Add directory="C:/OpSys_cw/cw/user_data/include/user_data.h"/>
+					<Add directory="C:/OpSys_cw/associative_container/include/associative_container.h"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/OpSys_cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyProject/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/OpSys_cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/OpSys_cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/OpSys_cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/OpSys_cw/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/OpSys_cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/OpSys_cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/OpSys_cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/OpSys_cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/OpSys_cw/b-tree/b_tree.h">
+			<Option target="MyProject"/>
+		</Unit>
+		<Unit filename="C:/OpSys_cw/cw/database/src/data_base.cpp">
+			<Option target="MyProject"/>
+		</Unit>
+		<Unit filename="C:/OpSys_cw/cw/schema/src/schema.cpp">
+			<Option target="MyProject"/>
+		</Unit>
+		<Unit filename="C:/OpSys_cw/cw/schemas_pool/src/schemas_pool.cpp">
+			<Option target="MyProject"/>
+		</Unit>
+		<Unit filename="C:/OpSys_cw/cw/table/src/table.cpp">
+			<Option target="MyProject"/>
+		</Unit>
+		<Unit filename="C:/OpSys_cw/cw/user_data/src/user_data.cpp">
+			<Option target="MyProject"/>
+		</Unit>
+		<Unit filename="C:/OpSys_cw/library.cpp">
+			<Option target="MyProject"/>
+		</Unit>
+		<Unit filename="C:/OpSys_cw/library.h">
+			<Option target="MyProject"/>
+		</Unit>
+		<Unit filename="C:/OpSys_cw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

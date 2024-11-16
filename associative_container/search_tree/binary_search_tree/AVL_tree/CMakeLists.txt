@@ -8,7 +8,7 @@ add_library(
 target_include_directories(
         mp_os_assctv_cntnr_srch_tr_bnr_srch_tr_AVL_tr
         PUBLIC
-        ./include)
+        include)
 target_link_libraries(
         mp_os_assctv_cntnr_srch_tr_bnr_srch_tr_AVL_tr
         PUBLIC

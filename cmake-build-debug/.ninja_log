@@ -1,0 +1,17 @@
+# ninja log v6
+64	2644	7533970364103888	CMakeFiles/cw_os.dir/allocator/allocator_boundary_tags/src/allocator_boundary_tags.cpp.obj	d801eed5849982d2
+56	6073	7533970364013794	CMakeFiles/cw_os.dir/cw/database/src/data_base.cpp.obj	49c39e026692869
+89	1420	7533960043471211	CMakeFiles/cw_os.dir/logger/logger/src/logger.cpp.obj	d2e8e42645b1ac9d
+52	3522	7533952258332235	CMakeFiles/cw_os.dir/cw/user_data/src/user_data.cpp.obj	7f9a8420ab5ded45
+58	4526	7533955156875628	CMakeFiles/cw_os.dir/cw/schemas_pool/src/schemas_pool.cpp.obj	a2c3e9759ee5a6fb
+50	4658	7533955156795597	CMakeFiles/cw_os.dir/cw/schema/src/schema.cpp.obj	9a88403cf02e0e58
+24	529	7533983083773765	build.ninja	b5f93124d4168fa2
+67	5636	7533955156955700	CMakeFiles/cw_os.dir/cw/table/src/table.cpp.obj	ec2f5d3bdaad52e9
+74	3399	7533970364193864	CMakeFiles/cw_os.dir/logger/client_logger/src/client_logger.cpp.obj	59f1bc6eb32b2c5e
+17	2296	7533980094595195	CMakeFiles/cw_os.dir/main.cpp.obj	6e7859f83e3772e0
+66	869	7533960043231196	CMakeFiles/cw_os.dir/allocator/allocator/src/allocator_guardant.cpp.obj	8e24e3f1796f9d3b
+98	1208	7533960043556556	CMakeFiles/cw_os.dir/logger/logger/src/logger_builder.cpp.obj	64d848815d6436ca
+52	2054	7533969011021948	CMakeFiles/cw_os.dir/cw/string_pool/src/string_pool.cpp.obj	96ad2764fd8caba2
+107	1226	7533960043646831	CMakeFiles/cw_os.dir/logger/logger/src/logger_guardant.cpp.obj	210bca702b1ccfd9
+83	3315	7533970364283899	CMakeFiles/cw_os.dir/logger/client_logger/src/client_logger_builder.cpp.obj	834fbd94f2a891c2
+2297	5197	7533980117397485	cw_os.exe	c2e5f76aebe7b6bd

@@ -1,15 +1,13 @@
 #ifndef MATH_PRACTICE_AND_OPERATING_SYSTEMS_ALLOCATOR_ALLOCATOR_GLOBAL_HEAP_H
 #define MATH_PRACTICE_AND_OPERATING_SYSTEMS_ALLOCATOR_ALLOCATOR_GLOBAL_HEAP_H
 
-#include <allocator.h>
-#include <logger.h>
-#include <logger_guardant.h>
-#include <typename_holder.h>
+#include "../../allocator/include/allocator_guardant.h"
+#include "../../../logger/logger/include/logger_guardant.h"
+
 
 class allocator_global_heap final:
     public allocator,
-    private logger_guardant,
-    private typename_holder
+    private logger_guardant
 {
 
 private:
@@ -53,9 +51,6 @@ private:
     
     inline logger *get_logger() const override;
 
-private:
-    
-    inline std::string get_typename() const noexcept override;
 
 public:
 

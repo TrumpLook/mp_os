@@ -8,7 +8,7 @@ add_library(
 target_include_directories(
         mp_os_allctr_allctr
         PUBLIC
-        ./include)
+        include)
 set_target_properties(
         mp_os_allctr_allctr PROPERTIES
         LANGUAGES CXX
