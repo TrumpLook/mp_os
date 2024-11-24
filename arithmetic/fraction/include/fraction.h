@@ -16,6 +16,10 @@ public:
     fraction(
         big_integer &&numerator,
         big_integer &&denominator);
+    fraction(
+            big_integer const & numerator,
+            big_integer const & denominator
+            );
 
 public:
 
@@ -58,6 +62,8 @@ public:
 
     fraction operator/(
         fraction const &other) const;
+//    fraction operator-() const;
+//
 
 public:
 
@@ -92,6 +98,12 @@ public:
         fraction &obj);
 
 public:
+
+    static fraction factorial(
+            size_t number);
+
+    static fraction abs(
+            fraction const number);
 
     fraction sin(
         fraction const &epsilon) const;
